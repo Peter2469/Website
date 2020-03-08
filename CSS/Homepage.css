@@ -7,17 +7,13 @@ body, html {
   * {
     box-sizing: border-box;
   }
-  
-  .table {
-    width: 80%;
-    position: absolute;
-    overflow: hidden;
+
+  .table{
+    position: relative;
+    overflow: auto;
+    transform: translateY(25%);
     table-layout: fixed;
-    top: 45%;
-    left: 50%;
-    background-color: black;
-    border-radius: 15px;
-    transform: translate(-50%, -50%);
+    padding: 10px;
   }
 
 
