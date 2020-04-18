@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<head>
+    <title id="Title">Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Developer from United Kingdom.">
+    <meta name="keywords" content="HTML, CSS, Python, JavaScript"> 
+    <meta name="author" content="Peter Nokes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
+    <script src="index.js"></script>
+    <audio id="christmas" preload="auto">
+        <source src="./Christmas/Christmas.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="birthday" preload="auto">
+        <source src="./Birthday/Happy Birthday.mp3" type="audio/mpeg">
+    </audio>
+</head>
+
+<body id="body" class="English" onload="Events()">
+    <div>
+        <h class="title" id="FullName">Peter Nokes</h>
+        <p class="description"><script>document.write(calcAge(dateString));</script> Year old Programmer from London, United Kingdom</p>
+        <div class="SocialMediaButtons">
+            <div class="SocialMediaButton"><a href="https://github.com/Peter2469/"><i class="fab fa-github"></i></a></div>
+            <div class="SocialMediaButton"><a href="https://twitter.com/Peter123987456"><i class="fab fa-twitter"></i></a></div>
+        </div>
+    </div>
+    <div>
+        <h id="Projects" class="title">Projects</h>
+        <div>
+            <p class="description"><a id="SimpleCalculator" class="direct" href="https://github.com/Peter2469/SimpleCalculator">Simple Calculator</a> -  Does Basic Equations, Coded in Python.</p>
+            <p class="description"><a id="AddingGame" class="direct" href="https://github.com/Peter2469/AddingGuessingGame">Adding Guessing Game</a> - Basic Guessing Game, Coded in Python</p>
+            <p class="description"><a id="Website" class="direct" href="https://github.com/Peter2469/Website">Website</a> - The Website, Coded in HTML, CSS and JS</p>
+        </div>
+    </div>
+    <div>
+        <h class="title">Skills</h>
+        <div>
+            <ul>
+                <li>Programs in HTML, CSS, JS and Python as a hobby.</li>
+                <li>I have Experience with using the Linux Terminal (Debian Based).</li>
+                <li>Learnt how to use Cisco Packet Tracer.</li>
+                <li>Microsoft Office Skills</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <br>Programmed by <a id="FullName2">Peter Nokes</a><br>
+        Source & Credit on <a class="direct" href="https://github.com/Peter2469/Website">Github</a><br>
+        <button id="Toggle" onclick="ThemeChanger()">Dark Theme</button>
+        <a href="https://www.peternokes.co.uk/ru"><button>Русский</button></a>
+    </footer>
+</body>

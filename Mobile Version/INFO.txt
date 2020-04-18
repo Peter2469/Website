@@ -1,0 +1,2 @@
+The Mobile Website can be looked at by going to m.peternokes.co.uk
+The files for the mobile website is not in the same directory as peternokes.co.uk
