@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <head>
     <title id="Title">Домашняя страница</title>
+    <meta property="title" content="Мой Личный Вебсайт">
     <meta charset="UTF-8">
     <meta name="description" content="программист из Лондона, Великобритания.">
+    <meta property="image" content="https://cdn.discordapp.com/avatars/209735985158815744/984fec89a11c1c218379035597b06da0.webp?size=1024">
+    <meta property="url" content="https://peternokes.co.uk">
     <meta name="keywords" content="HTML, CSS, Python, JavaScript"> 
     <meta name="author" content="Петр Нокс">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
     <script src="index.js"></script>
-    <audio id="christmas" preload="auto">
-        <source src="../Christmas/Christmas.mp3" type="audio/mpeg">
-    </audio>
-    <audio id="birthday" preload="auto">
-        <source src="../Birthday/Happy Birthday.mp3" type="audio/mpeg">
-    </audio>
 </head>
 
 <body id="body" onload="Events()">
@@ -23,7 +20,7 @@
         <p class="description"><script>document.write(calcAge(dateString));</script>-летний программист из Лондона, Великобритания</p>
         <div class="SocialMediaButtons">
             <div class="SocialMediaButton"><a href="https://github.com/Peter2469/"><i class="fab fa-github"></i></a></div>
-            <div class="SocialMediaButton"><a href="https://twitter.com/Peter123987456"><i class="fab fa-twitter"></i></a></div>
+            <div class="SocialMediaButton"><a href="https://twitter.com/PeterNokes"><i class="fab fa-twitter"></i></a></div>
         </div>
     </div>
     <div>
@@ -31,6 +28,7 @@
         <div>
             <p class="description"><a id="SimpleCalculator" class="direct" href="https://github.com/Peter2469/SimpleCalculator">Простой калькулятор</a> - Выполняет базовые вычисления, написан на Python.</p>
             <p class="description"><a id="AddingGame" class="direct" href="https://github.com/Peter2469/AddingGuessingGame">Угадай число</a> - Простая игра в угадайку, написанная на Python.</p>
+            <p class="description"><a id="AddingGame" class="direct" href="https://github.com/Peter2469/AddingGuessingGameRewrite">Перезапись игры "Угадай Число"</a> - То же, что и в оригинале, но с исправленными ошибками, написана на Python</p>
             <p class="description"><a id="Website" class="direct" href="https://github.com/Peter2469/Website">Вебсайт</a> - Вебсайт, написанный на HTML, CSS и JS</p>
         </div>
     </div>
@@ -39,6 +37,7 @@
         <div>
             <ul>
                 <li>Программы в HTML, CSS, JS и Python как хобби.</li>
+                <li>Опыт в ремонте компьютеров.</li>
                 <li>Есть опыт с работой в терминале Linux (Debian).</li>
                 <li>Умею использовать Cisco Packet Tracer.</li>
                 <li>Опыт работы с Microsoft Office</li>
@@ -50,5 +49,6 @@
         Источник и благодарности на <a class="direct" href="https://github.com/Peter2469/Website">Github</a><br>
         <button id="Toggle" onclick="ThemeChanger()">Dark Theme</button>
         <a href="https://www.peternokes.co.uk"><button>English</button></a>
+        <a href="mailto:peter@peternokes.co.uk"><button>Напишите мне</button></a>
     </footer>
 </body>

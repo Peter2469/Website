@@ -62,11 +62,11 @@ function Events() {
   var date = (today.getMonth()+1)+'-'+today.getDate();
   autotheme();
   if (date === "12-25"){
-    var christmas = document.getElementById("christmas"); 
+    var christmas = new Audio('./Christmas/Christmas.mp3');
     console.log("Merry Christmas!")
     christmas.play();
   }else if (date === "6-21"){
-    var birthday = document.getElementById("birthday");
+    var birthday = new Audio('./Birthday/Happy Birthday.mp3');
     console.log("It's my " + calcAge(dateString) + "th Birthday today!")
     birthday.play()
   }else{
