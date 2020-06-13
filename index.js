@@ -40,7 +40,6 @@ function autotheme() {
 
   body.classList.toggle('dark-mode', (hour >= 22 || hour <= 7))
   }
-  setTimeout(autotheme, 1000)
 }
 
 function Events() {
