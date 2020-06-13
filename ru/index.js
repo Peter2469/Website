@@ -21,7 +21,7 @@ function ThemeChanger() {
 
 function autotheme() {
 
-  var today=  new Date();
+  var today = new Date();
   var curHr=today.getHours()
 
   if (curHr >= 22 || curHr <= 7) {
@@ -40,7 +40,7 @@ function autotheme() {
 
   body.classList.toggle('dark-mode', (hour >= 22 || hour <= 7))
   }
-  setTimeout(autotheme, time-Date.now())
+  setTimeout(autotheme, 1000)
 }
 
 function Events() {
