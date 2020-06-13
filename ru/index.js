@@ -26,7 +26,6 @@ function autotheme() {
 
   if (curHr >= 22 || curHr <= 7) {
     var element = document.body;
-    element.classList
     element.classList.toggle("dark-mode",true);
     var x = document.getElementById("Toggle");
     if (x.innerHTML === "Light Theme") {
@@ -34,25 +33,12 @@ function autotheme() {
     } else {
       x.innerHTML = "Light Theme";
     }
-  }
-  var time = "";
-  if(curHr >= 22 && curHr <= 24) { //From 22-24
-     time = new Date();
-    time.setDate(time.getDate()+1); 
-    time.setHours(7);
-    time.setMinutes(0);
-    time.setSeconds(0);
-  } else if(curHr >= 0 && curHr <= 7) { // From 00 - 07
-    time = new Date();
-    time.setHours(7);
-    time.setMinutes(0);
-    time.setSeconds(0);
-  } else if(curHr <= 7 && curHr >= 22) { // From 07 - 22
-    time = new Date();
-    time.setHours(22);
-    time.setMinutes(0);
-    time.setSeconds(0);
 
+  const current = new Date()
+  const hour = current.getHours()
+  const body = document.body;
+
+  body.classList.toggle('dark-mode', (hour >= 22 || hour <= 7))
   }
   setTimeout(autotheme, time-Date.now())
 }

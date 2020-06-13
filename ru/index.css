@@ -4,29 +4,29 @@ body{
     border: 1px solid grey;
     background-color: white;
     color: black;
-    transition: all 1s;
+    transition: all 3s;
 }
 
 .dark-mode {
     background-color: black;
     border: 1px solid white;
     color: white;
-    transition: all 1s;
+    transition: all 3s;
   }
 
 .dark-mode .direct{
     color:white;
-    transition: all 1s;
+    transition: all 3s;
 }
 
 .dark-mode a{
     color:white;
-    transition: all 1s;
+    transition: all 3s;
 }
 
 .dark-mode .SocialMediaButton{
     color:white;
-    transition: all 1s;
+    transition: all 3s;
 }
 
 .title{
@@ -39,7 +39,7 @@ body{
 
 a{
     color:black;
-    transition: all 1s;
+    transition: all 3s;
 }
 
 .SocialMediaButtons {
@@ -54,7 +54,7 @@ a{
     border-color: black;
     border-width: 1px;
     text-align:center;
-    transition: all 1s;
+    transition: all 3s;
 }
    
 .SocialMediaButton {
@@ -76,5 +76,5 @@ a{
     margin: auto;
     text-align: center;
     vertical-align: middle;
-    transition: all 1s;
+    transition: all 3s;
   }
