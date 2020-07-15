@@ -58,3 +58,7 @@ function Events() {
     console.log("There is no Events set for today")
   }
 }
+
+function DiscordAlert(){
+  alert("Name: Peter2469#5460\nID: 209735985158815744")
+}

@@ -12,10 +12,10 @@ function ThemeChanger() {
   element.classList.toggle("dark-mode");
 
   var name = document.getElementById("Toggle");
-  if (name.innerHTML === "Dark Theme") {
-    name.innerHTML = "Light Theme";
+  if (name.innerHTML === "Тёмная тема") {
+    name.innerHTML = "Светлая тема";
   } else {
-    name.innerHTML = "Dark Theme"
+    name.innerHTML = "Тёмная тема"
   }
 }
 
@@ -28,10 +28,10 @@ function autotheme() {
     var element = document.body;
     element.classList.toggle("dark-mode",true);
     var x = document.getElementById("Toggle");
-    if (x.innerHTML === "Light Theme") {
-      x.innerHTML = "Dark Theme";
+    if (x.innerHTML === "Светлая тема") {
+      x.innerHTML = "Тёмная тема";
     } else {
-      x.innerHTML = "Light Theme";
+      x.innerHTML = "Светлая тема";
     }
 
   const current = new Date()
@@ -57,4 +57,8 @@ function Events() {
   }else{
     console.log("There is no Events set for today")
   }
+}
+
+function DiscordAlert(){
+  alert("Имя: Peter2469#5460\nID: 209735985158815744")
 }
