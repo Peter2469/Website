@@ -1,55 +1,80 @@
 <!DOCTYPE html>
-<head>
-    <title id="Title">Peter Nokes | Homepage</title>
-    <meta charset="UTF-8">
-    <meta property="title" content="My Personal Website">
+<!-- 
+    Peter Nokes | GPL-3.0 License 
+-->
+<head lang="en">
+    <meta charset="utf-8">
+    <title>Peter Nokes | Homepage</title>
     <meta name="description" content="Programmer from United Kingdom.">
-    <meta property="url" content="https://peternokes.co.uk">
-    <meta name="keywords" content="HTML, CSS, Python, JavaScript"> 
-    <meta name="author" content="Peter Nokes">
+    <meta name="og:image" content="https://beta.peternokes.co.uk/assets/imgs/me.webp"/>
+    <meta name="twitter:site" content="https://www.peternokes.co.uk">
+    <meta name="twitter:creator" content="PeterNokes">
+    <meta name="twitter:title" content="Peter Nokes | Homepage">
+    <meta name="twitter:description" content="Programmer from United Kingdom">
+    <meta name="twitter:image" content="https://beta.peternokes.co.uk/assets/imgs/me.webp">
+    <link rel="stylesheet" href="assets/css/main.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js"></script>
-    <script src="index.js"></script>
 </head>
 
-<body id="body" class="English" onload="Events()">
+<html lang="en">
     <div>
-        <h class="title" id="FullName">Peter Nokes</h>
-        <p class="description"><script>document.write(calcAge(dateString));</script> Year old Programmer from London, United Kingdom</p>
-        <div class="SocialMediaButtons">
-            <div class="SocialMediaButton"><a href="https://github.com/Peter2469/"><i class="fab fa-github"></i></a></div>
-            <div class="SocialMediaButton"><a href="https://twitter.com/PeterNokes"><i class="fab fa-twitter"></i></a></div>
-            <div class="SocialMediaButton"><a href="https://steamcommunity.com/id/Peter2469"><i class="fab fa-steam"></i></a></div>
-            <div class="SocialMediaButton" onclick="DiscordAlert()"><a href="https://discordapp.com/users/209735985158815744"><i class="fab fa-discord"></i></a></div><br>
-        </div><br>
-    </div>
-    <div>
-        <h id="Projects" class="title">Projects</h>
-        <div>
-            <p class="description"><a id="SimpleCalculator" class="direct" href="https://github.com/Peter2469/SimpleCalculator">Calculator</a> - Does Basic Equations, Coded in Python.</p>
-            <p class="description"><a id="AddingGame" class="direct" href="https://github.com/Peter2469/AddingGuessingGame">Adding Guessing Game</a> - Basic Guessing Game, Coded in Python</p>
-            <p class="description"><a id="AddingGame" class="direct" href="https://github.com/Peter2469/AddingGuessingGameRewrite">Adding Guessing Game Rewrite</a> - Same premesis as the original, however fixed error mistakes, Coded in Python</p>
-            <p class="description"><a id="Website" class="direct" href="https://github.com/Peter2469/Website">Website</a> - The Website, Coded in HTML, CSS and JS</p>
+        <div class="avatarMe">
+            <img src="assets/imgs/me.webp" alt="Avatar">
+        </div>
+        <div class="aboutMe">
+            <div class="nameAndtitle">
+                <h1>Peter Nokes</h1>
+                <p>Python developer</p>
+            </div>
+            <div class="aboutDesc">
+                <p>18 Year old Programmer from London, United Kingdom</p>
+            </div>
+            <div class="socialMedia">
+                <a href="https://twitter.com/PeterNokes" data-wenk="@PeterNokes"><i class="fab fa-twitter"></i></a>
+                <a href="https://steamcommunity.com/id/Peter2469" data-wenk="Peter2469"><i class="fab fa-steam"></i></a>
+                <a href="https://github.com/Peter2469" data-wenk="@Peter2469"><i class="fab fa-github"></i></a>
+                <a data-wenk="Peter2469#5460"><i class="fab fa-discord"></i></a>
+                <a href="mailto:peter@peternokes.co.uk" data-wenk="peter@peternokes.co.uk"><i class="far fa-envelope"></i></a>
+                <a href="https://www.github.com/sponsors/Peter2469" data-wenk="Sponsor me on GitHub!"><i class="far fa-donate"></i></a>
+            </div>
         </div>
     </div>
-    <div>
-        <h class="title">Skills</h>
-        <div>
-            <ul>
-                <li>Programs in HTML, CSS, JS and Python as a hobby.</li>
-                <li>Experience in the Computer Repair Industry.</li>
-                <li>I have Experience with using the Linux Terminal (Debian Based).</li>
-                <li>Learnt how to use Cisco Packet Tracer.</li>
-                <li>Microsoft Office Skills</li>
-            </ul>
+    
+    <h1 class="projectitle">Projects</h1>
+   
+    <div class="projects">
+        <div class="row">
+            <div class="project">
+                <a href="https://github.com/Peter2469/SimpleCalculator" data-wenk="Does Basic Equations, Coded in Python.">
+                <div class="projectText">
+                    <h1>Calculator</h1>   
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Peter2469/AddingGuessingGame" data-wenk="Basic Guessing Game, Coded in Python">
+                <div class="projectText">
+                    <h1>Adding Guessing Game</h1>   
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Peter2469/AddingGuessingGameRewrite" data-wenk="Same premesis as the original, however fixed error mistakes, Coded in Python">
+                <div class="projectText">
+                    <h1>Adding Guessing Game Rewrite</h1>   
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://github.com/Peter2469/Website" data-wenk="The Website, Coded in HTML and CSS">
+                <div class="projectText">
+                    <h1>Websites Source Code</h1>   
+                </div>
+            </div>
+            <div class="project">
+                <a href="https://rr.peternokes.co.uk" data-wenk="Russian Roulette, Coded in HTML, CSS and JS">
+                <div class="projectText">
+                    <h1>Russian Roulette</h1>   
+                </div>
+            </div>
         </div>
     </div>
-    <footer>
-        <br>Programmed by <a id="FullName2">Peter Nokes</a><br>
-        Source & Credit on <a class="direct" href="https://github.com/Peter2469/Website">Github</a><br>
-        <button id="Toggle" onclick="ThemeChanger()">Dark Theme</button>
-        <a href="https://www.peternokes.co.uk/ru"><button>Русский</button></a>
-        <a href="mailto:peter@peternokes.co.uk"><button>Email Me</button></a>
-    </footer>
-</body>
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/latest/css/pro.min.css" media="all">
+</html>
