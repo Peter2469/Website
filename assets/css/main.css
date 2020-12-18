@@ -57,25 +57,25 @@ a {
   color: #fff;
 }
 
-[data-wenk]:hover {
+[data-desc]:hover {
   overflow: visible;
 }
-[data-wenk] {
+[data-desc] {
   position: relative;
   font-weight: bolder;
 }
-[data-wenk]:hover:after {
+[data-desc]:hover:after {
   display: block;
   opacity: 1;
   visibility: visible;
   -webkit-transform: translate(-50%, -10px);
   transform: translate(-50%, -10px);
 }
-[data-wenk]:after {
+[data-desc]:after {
   position: absolute;
   font-size: 13px;
   border-radius: 0.4rem;
-  content: attr(data-wenk);
+  content: attr(data-desc);
   padding: 12.8px;
   padding: 0.8rem;
   background-color: hsla(0, 0%, 7%, 0.8);
