@@ -46,7 +46,14 @@ a {
 .avatarMe img {
   width: 50%;
   border-radius: 10px;
+  transition-duration: 0.8s;
+  transition-property: transform;
 }
+.avatarMe img:hover {
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+
 .aboutDesc {
   width: 350px;
   color: #fff;
