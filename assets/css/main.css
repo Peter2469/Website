@@ -114,16 +114,10 @@ a {
   position: relative;
   right: 10px;
 }
-.projects {
-  position: relative;
-  color: #fff;
-  width: 80%;
-  left: 150px !important;
-}
+
 .projectitle {
   display: inline-block;
   color: #fff;
-  margin: 20px;
   position: relative;
   left: 150px;
 }
@@ -132,7 +126,6 @@ a {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin-top: 60px;
   width: 100%;
 }
 .project {
@@ -173,12 +166,6 @@ a {
     display: block;
     align-items: center;
     left: 0;
-  }
-  .projects {
-    display: block;
-    align-items: center;
-    left: 0 !important;
-    width: 100% !important;
   }
 }
 ::-webkit-scrollbar {
