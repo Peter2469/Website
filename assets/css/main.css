@@ -156,18 +156,28 @@ a {
     display: block;
     align-items: center;
     left: 0;
+    width: 100%;
   }
   .avatarMe {
     display: block;
     position: relative;
     margin-top: 0;
     margin-bottom: 50px;
-    left: 40%;
+    left: 32%;
   }
   .projectitle {
     display: block;
     align-items: center;
     left: 0;
+    
+  }
+  .aboutDesc {
+    width: 35%;
+    word-wrap: break-word;
+  }
+
+  .socialMedia {
+    width: 150%;
   }
 }
 ::-webkit-scrollbar {
