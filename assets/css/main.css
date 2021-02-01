@@ -34,10 +34,12 @@ a {
   color: #fff;
 }
 .aboutDesc p {
+  position: relative;
+  display: inline-block;
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  width: 250%;
+  width: auto;
 }
 .avatarMe {
   width: 442.83px;
