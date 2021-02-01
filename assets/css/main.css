@@ -46,8 +46,8 @@ a {
   margin-top: 60px;
 }
 .avatarMe img {
+  display: inline-block;
   width: 50%;
-  border-radius: 10px;
   transition-duration: 2s;
   transition-property: transform;
 }
@@ -57,7 +57,7 @@ a {
 }
 
 .aboutDesc {
-  position: relative;
+  display: inline-block;
   color: #fff;
   font-weight: 700;
 }
