@@ -15,7 +15,6 @@ a {
   text-decoration: none;
 }
 .aboutMe {
-  display: inline-block;
   margin: 20px;
   position: relative;
   left: 50px;
@@ -38,13 +37,11 @@ a {
   color: #fff;
   font-weight: 700;
   font-size: 18px;
-  width: auto;
 }
 .avatarMe {
-  width: 442.83px;
-  right: 10px;
   float: right;
-  margin-top: 60px;
+  margin-top: 20px;
+  margin-right: -7.5%;
 }
 .avatarMe img {
   display: inline-block;
