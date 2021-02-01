@@ -18,8 +18,7 @@ a {
   display: inline-block;
   margin: 20px;
   position: relative;
-  left: 150px;
-  width: 70%;
+  left: 50px;
 }
 .nameAndtitle {
   color: #fff;
@@ -123,7 +122,7 @@ a {
   display: inline-block;
   color: #fff;
   position: relative;
-  left: 150px;
+  left: 70px;
 }
 .row {
   display: flex;
