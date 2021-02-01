@@ -7,5 +7,5 @@ function calcAge(dateString) {
 }
 
 function startUp(){
-    document.getElementById("desc").innerHTML = calcAge(dateString) + " Year old Programmer from London, United Kingdom"
+    document.getElementById("desc").innerHTML = calcAge(dateString) + " Year old Programmer from London, United Kingdom with knowledge in Python3, Javascript, HTML and CSS"
 }

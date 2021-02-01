@@ -19,6 +19,7 @@ a {
   margin: 20px;
   position: relative;
   left: 150px;
+  width: 70%;
 }
 .nameAndtitle {
   color: #fff;
@@ -28,14 +29,15 @@ a {
   font-weight: 700;
 }
 .nameAndtitle p {
-  font-size: 1.75rem;
+  font-size: 2rem;
   font-weight: 600;
   color: #fff;
 }
 .aboutDesc p {
   color: #fff;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 18px;
+  width: 250%;
 }
 .avatarMe {
   width: 442.83px;
@@ -46,7 +48,7 @@ a {
 .avatarMe img {
   width: 50%;
   border-radius: 10px;
-  transition-duration: 0.8s;
+  transition-duration: 2s;
   transition-property: transform;
 }
 .avatarMe img:hover {
@@ -139,10 +141,10 @@ a {
   text-align: center;
   background-color: #0f1f3a;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.75s;
 }
 .project:hover {
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 .projectText h1 {
   font-size: 20px;
