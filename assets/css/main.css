@@ -57,7 +57,7 @@ a {
 }
 
 .aboutDesc {
-  width: 350px;
+  width: auto;
   color: #fff;
   font-weight: 700;
 }
