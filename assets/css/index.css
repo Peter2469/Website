@@ -89,6 +89,15 @@ ul li {
   font-weight: bold;
 }
 
+.AboutMe{
+  width: 50%;
+}
+
+.AboutMe .Bio{
+  color: white;
+  font-size: 1.25rem;
+}
+
   @media screen and (max-width: 600px) {
     .topnav {
       position: static;
@@ -137,5 +146,16 @@ ul li {
 
     .SocialMedia{
       text-align: center !important;
+    }
+
+    .AboutMe{
+      text-align: center !important;
+      width: 90%;
+      padding: 10px;
+    }
+
+    .AboutMe .bio{
+      font-size: 0.875rem;
+      text-align: left !important;
     }
 }
