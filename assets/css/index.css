@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #060e1b;
+  }
+  
+  .Content {
+    margin: 0;
+    padding: 50px;
+  }
+
+  .topnav {
+    overflow: hidden;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 1px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom-color: #ddd;
+    color: white;
+  }
+  
+  .topnav a.active {
+    /*border-bottom-color: #4CAF50;*/
+    border-bottom-color: #ddd;
+    color: white;
+  }
+
+  .headertitle{
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+  }
+
+  h2{
+    color: white;
+  }
+
+.buttons {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  font-size: 30px;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+}
+
+.Projects {
+  border-left: 3px solid white;
+  padding: 0px 20px;
+  width: 50%;
+}
+
+.Projects .Description {
+  color: white;
+  font-size: 20px;
+}
+.SocialMedia i {
+  font-size: 30px;
+  margin: 7.5px;
+  right: 10px;
+}
+
+.Skills {
+  color: white;
+  font-size: 36px;
+  margin-top: 5%;
+  margin-left: 2.5%;
+}
+
+ul li {
+  color: white;
+  margin-left: 2.5%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+  @media screen and (max-width: 600px) {
+    .topnav {
+      position: static;
+      width: 100%;
+      text-align: center !important;
+    }
+
+    .topnav a {
+      padding: 14px 0;
+    }
+
+    .topnav a.active {
+      width: 100%;
+    }
+
+    .nav {
+      width: 100%;
+    }
+
+    .centrehere{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 95%;
+    }
+
+    .buttons{
+      margin-top: 10px;
+    }
+
+    .Content{
+      padding: 10px;
+      text-align: center !important;
+    }
+
+    .Projects{
+      text-align: left;
+      width: 95%;
+    }
+
+    .Projects .Description{
+      font-size: 14px;
+    }
+  
+    .Projects .buttons{
+      font-size: 14px;
+      padding: 12px 16px;
+    }
+
+    .Skills {
+      text-align: center !important;
+    }
+
+    .SocialMedia{
+      text-align: center !important;
+    }
+}
