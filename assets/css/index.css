@@ -69,11 +69,6 @@ body {
   color: white;
   font-size: 1.25rem;
 }
-.SocialMedia i {
-  font-size: 30px;
-  margin: 7.5px;
-  right: 10px;
-}
 
 .Skills {
   color: white;
@@ -98,6 +93,41 @@ ul li {
   font-size: 1.25rem;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 600px){
+  .HPAboutMe .HPBio{
+    font-size: 1rem;
+  }
+
+  .MainContent .SocialMedia .buttons{
+      font-size: 1.25rem;
+      padding: 10px 14px;
+    }
+
+  .Projects{
+    text-align: left;
+    width: 90%;
+  }
+
+  .AboutMe{
+    text-align: left !important;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .AboutMe .bio{
+    font-size: 1rem;
+    text-align: left !important;
+  }
+  .Projects .Description{
+    font-size: 1rem;
+  }
+
+  .Projects .buttons{
+    font-size: 1.25rem;
+    padding: 10px 14px;
+  }
+}
+
   @media screen and (max-width: 600px) {
     .topnav {
       position: static;
@@ -106,7 +136,8 @@ ul li {
     }
 
     .topnav a {
-      padding: 14px 0;
+      padding: 12px 0;
+      font-size: 0.875rem;
     }
 
     .topnav a.active {
@@ -137,9 +168,18 @@ ul li {
   
     .Projects .buttons{
       font-size: 0.875rem;
-      padding: 12px 16px;
+      padding: 10px 12px;
     }
 
+    .MainContent .SocialMedia .buttons{
+      font-size: 0.875rem;
+      padding: 10px 12px;
+    }
+
+    .HPAboutMe .HPBio{
+      font-size: 0.875rem;
+    }
+  
     .Skills {
       text-align: center !important;
     }
