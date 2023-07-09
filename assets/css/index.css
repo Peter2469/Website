@@ -9,12 +9,16 @@ body {
     padding: 50px;
   }
 
+  .HPBio {
+    width: 75%;
+  }
+
   .topnav {
     overflow: hidden;
     text-align: center;
     background-color: transparent;
   }
-  
+
   .topnav a {
     float: left;
     color: #f2f2f2;
@@ -23,15 +27,14 @@ body {
     font-size: 1.063rem;
     border: 1px solid transparent;
   }
-  
+
   .topnav a:hover {
     border-bottom-color: #ddd;
     color: white;
   }
-  
+
   .topnav a.active {
-    /*border-bottom-color: #4CAF50;*/
-    border-bottom-color: #ddd;
+    border-bottom-color: white;
     color: white;
   }
 
@@ -62,7 +65,7 @@ body {
 .Projects {
   border-left: 3px solid white;
   padding: 0px 20px;
-  width: 50%;
+  width: 75%;
 }
 
 .Projects .Description {
@@ -85,7 +88,7 @@ ul li {
 }
 
 .AboutMe{
-  width: 50%;
+  width: 75%;
 }
 
 .AboutMe .Bio{
@@ -176,10 +179,14 @@ ul li {
       padding: 10px 12px;
     }
 
-    .HPAboutMe .HPBio{
+    .HPAboutMe .HPBio {
+      text-align: center !important;
+      display: block;
+      margin: 0 auto;
+      width: 90%;
       font-size: 0.875rem;
-    }
-  
+    }  
+
     .Skills {
       text-align: center !important;
     }
