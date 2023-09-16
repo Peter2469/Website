@@ -1,208 +1,213 @@
-body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #060e1b;
-  }
-  
-  .Content {
-    margin: 0;
-    padding: 50px;
-  }
+ body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #060e1b;
+}
 
-  .HPBio {
-    width: 75%;
-  }
-
-  .topnav {
-    overflow: hidden;
-    text-align: center;
-    background-color: transparent;
-  }
-
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 1.063rem;
-    border: 1px solid transparent;
-  }
-
-  .topnav a:hover {
-    border-bottom-color: #ddd;
-    color: white;
-  }
-
-  .topnav a.active {
-    border-bottom-color: white;
-    color: white;
-  }
-
-  .headertitle{
-    font-size: 3rem;
-    font-weight: bold;
-    color: white;
-  }
-
-  h2{
-    color: white;
-  }
-
-.buttons {
-  margin-top: 20px;
-  background-color: transparent;
-  border: 1px solid white;
+h2 {
   color: white;
-  padding: 12px 16px;
-  font-size: 1rem;
-  cursor: pointer;
-  font-size: 30px;
+  font-size: 48px;
+}
+
+p {
+  color: white;
+  font-size: 28px;
+}
+
+.container {
+  padding: 12% 10%;
+}
+
+.other-containers {
+  padding: 0% calc(10% + 16px);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+  padding: 0% calc(10% + 16px);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  position: relative;
-  display: inline-block;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  border-bottom: 1px solid #ddd;
+}
+
+.topnav a.active {
+  border-bottom: 1px solid white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.social-links {
+  text-align: left;
+  margin: 20px;
+}
+
+.social-links h3 {
+  font-size: 24px;
+  color: white;
+}
+
+.social-buttons {
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.social-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+}
+
+.social-button:last-child {
+  margin-right: 0;
+}
+
+.social-button:hover {
+  background-color: white;
+  color: #060e1b;
+  border-color: #060e1b;
+}
+
+.trans-button {
+  background-color: transparent;
+}
+
+.HPInfo {
+  padding-left: 16px;
 }
 
 .Projects {
   border-left: 3px solid white;
-  padding: 0px 20px;
-  width: 75%;
+  padding-left: 16px;
+  margin-left: calc(10% + 16px);
 }
 
-.Projects .Description {
+.Projects .Project-Title {
   color: white;
-  font-size: 1.25rem;
-}
-
-.Skills {
-  color: white;
-  font-size: 2.25rem;
-  margin-top: 5%;
-  margin-left: 2.5%;
-}
-
-ul li {
-  color: white;
-  margin-left: 2.5%;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
 }
 
-.AboutMe{
-  width: 75%;
-}
-
-.AboutMe .Bio{
+.Projects .Project-Description {
   color: white;
-  font-size: 1.25rem;
+  font-size: 18px;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 600px){
-  .HPAboutMe .HPBio{
-    font-size: 1rem;
+@media screen and (min-width: 1281px) {
+  .HPInfo {
+    width: 35%;
   }
 
-  .MainContent .SocialMedia .buttons{
-      font-size: 1.25rem;
-      padding: 10px 14px;
-    }
+  .other-containers {
+    padding: 0;
+  }
 
-  .Projects{
+  .container {
+    padding-left: 10%;
+  }
+
+  .Title {
+    padding: 0% calc(10% + 16px);
+  }
+
+  .Biography {
+    padding: 0% calc(10% + 16px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(.active) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
     text-align: left;
-    width: 90%;
   }
 
-  .AboutMe{
-    text-align: left !important;
-    width: 90%;
-    padding: 10px;
+  .topnav {
+    padding: 0;
   }
 
-  .AboutMe .bio{
-    font-size: 1rem;
-    text-align: left !important;
-  }
-  .Projects .Description{
-    font-size: 1rem;
+  .topnav-bg {
+    background-color: rgba(0, 0, 0, 0.25);
   }
 
-  .Projects .buttons{
-    font-size: 1.25rem;
-    padding: 10px 14px;
+  h2 {
+    font-size: 36px;
+    margin-bottom: 0px;
   }
-}
 
-  @media screen and (max-width: 600px) {
-    .topnav {
-      position: static;
-      width: 100%;
-      text-align: center !important;
-    }
+  h3 {
+    margin-bottom: 20px;
+  }
 
-    .topnav a {
-      padding: 12px 0;
-      font-size: 0.875rem;
-    }
+  p {
+    font-size: 18px;
+  }
 
-    .topnav a.active {
-      width: 100%;
-    }
+  .HPInfo {
+    width: 95% !important;
+  }
 
-    .nav {
-      width: 100%;
-    }
+  .social-button {
+    margin-bottom: 10px;
+    width: auto;
+  }
 
-    .buttons{
-      margin-top: 10px;
-    }
+  .container, .other-containers {
+    padding: 0px;
+    line-height: 1.5;
+  }
 
-    .Content{
-      padding: 10px;
-      text-align: center !important;
-    }
+  .Title {
+    padding: 0% 16px;
+  }
 
-    .Projects{
-      text-align: left;
-      width: 90%;
-    }
+  .Biography {
+    padding: 0% 16px;
+    font-size: 18px;
+  }
 
-    .Projects .Description{
-      font-size: 0.875rem;
-    }
-  
-    .Projects .buttons{
-      font-size: 0.875rem;
-      padding: 10px 12px;
-    }
+  .Projects {
+    padding-left: 16px;
+    margin-left: 0px;
+  }
 
-    .MainContent .SocialMedia .buttons{
-      font-size: 0.875rem;
-      padding: 10px 12px;
-    }
+  .Projects .Project-Title {
+    font-size: 20px;
+  }
 
-    .HPAboutMe .HPBio {
-      text-align: center !important;
-      display: block;
-      margin: 0 auto;
-      width: 90%;
-      font-size: 0.875rem;
-    }  
-
-    .Skills {
-      text-align: center !important;
-    }
-
-    .SocialMedia{
-      text-align: center !important;
-    }
-
-    .AboutMe{
-      text-align: center !important;
-      width: 90%;
-      padding: 10px;
-    }
-
-    .AboutMe .bio{
-      font-size: 0.875rem;
-      text-align: left !important;
-    }
+  .Projects .Project-Description {
+    font-size: 16px;
+  }
 }
