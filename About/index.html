@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="../assets/js/index.js"></script>
@@ -12,10 +13,10 @@
     <body>
         <div class="topnav-bg">
             <nav class="topnav" id="navbar">
-              <a class="nav" href="../">Homepage</a>
-              <a class="nav" href="../Portfolio">Portfolio</a>
-              <a class="active">About Me</a>
-              <a href="javascript:void(0);" class="icon" onclick="enableNavBar()">
+              <a class="nav" href="../" aria-label="A Link to the Homepage">Homepage</a>
+              <a class="nav" href="../Portfolio" aria-label="A Link to the Portfolio">Portfolio</a>
+              <a class="active" aria-label="You are currently viewing the autobiography">About Me</a>
+              <a href="javascript:void(0);" class="icon" onclick="enableNavBar()" aria-label="Toggle Navigation Bar">
                 <i class="fa fa-bars"></i>
               </a>
             </nav>

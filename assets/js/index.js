@@ -5,7 +5,10 @@ function calcAge(dateString) {
   return ~~((Date.now() - birthday) / (31557600000)); // 31557600000 is 24 * 3600 * 365.25 * 1000
 }
 
-document.getElementById("age").innerText = calcAge(dateString);
+var ageElement = document.getElementById("age");
+if (ageElement) {
+  ageElement.innerText = calcAge(dateString);
+}
 
 function enableNavBar() {
   var x = document.getElementById("navbar");
