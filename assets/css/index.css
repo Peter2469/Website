@@ -1,4 +1,4 @@
- body {
+body {
   margin: 0;
   font-family: Arial;
   background-color: #060e1b;
@@ -11,7 +11,7 @@ h2 {
 
 p {
   color: white;
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .container {
@@ -94,6 +94,7 @@ p {
 
 .HPInfo {
   padding-left: 16px;
+  font-size: 28px;
 }
 
 .Projects {
@@ -115,7 +116,7 @@ p {
 
 @media screen and (min-width: 1281px) {
   .HPInfo {
-    width: 35%;
+    width: 30%;
   }
 
   .other-containers {
@@ -140,6 +141,7 @@ p {
   .topnav a.icon {
     float: right;
     display: block;
+    border-bottom: 0;
   }
 
   .topnav.responsive {position: relative;}
